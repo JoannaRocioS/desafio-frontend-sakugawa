@@ -1,3 +1,6 @@
+Para levantar la aplicación primero Clonar el repositorio, luego abrir la consola/terminal dentro de la carpeta 'angular-project' y correr el siguiente comando:
+ng serve
+
 # AngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.

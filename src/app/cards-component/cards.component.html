@@ -1,0 +1,19 @@
+<div class="d-flex justify-content-around" style="padding-top: 14px;">
+    <div class="col-3 container-fluid">
+        <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="{{country.flags.svg}}" class="img-fluid"/>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"> <h1>{{ country.name.common }}</h1> </h5>
+                <p class="card-text">
+                   País: {{ country.name.common }}. Capital: {{ country.capital }}. Continente: {{ country.continents }}.
+                </p>        
+                <div>
+                    <a href="menu" class="btn btn-primary">Fechar</a>
+                    <a (click)="openDialog()" class="btn btn-primary">Ver mais</a>
+                </div>       
+            </div>
+        </div>
+    </div>
+</div>

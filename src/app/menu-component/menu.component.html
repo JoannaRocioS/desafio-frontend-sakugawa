@@ -1,0 +1,16 @@
+<body>
+    <app-header-component></app-header-component>
+
+    <div class="input-display">
+        <div class="input-group col-4">
+            <input type="text" class="form-control input-sm" (keydown.enter)="onEnter(searchWord)" [(ngModel)]="searchWord" placeholder="Insira aqui o país que deseja pesquisar" >
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" (click)="searchCountry(searchWord)">Buscador</button>
+            </div>
+        </div>
+    </div>
+
+    <div *ngFor='let country of countries'>
+        <app-cards-component [country]="country"></app-cards-component>
+    </div>
+</body>
