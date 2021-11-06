@@ -4,8 +4,11 @@ Para levantar la aplicación
 
 2 Abrir la consola/terminal dentro de la carpeta 'angular-project'
 
-3 Correr el comando:
+3 Moverse a la branch Master con el siguiente comando:
+git checkout master
+
+4 Correr el comando:
 npm install 
 
-4 Usar el siguiente comando para levantar la aplicación:
+5 Usar el siguiente comando para levantar la aplicación:
 ng serve
